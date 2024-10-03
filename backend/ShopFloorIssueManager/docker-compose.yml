@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql
+    container_name: shopfloorissue
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: shopfloorissue
+    volumes:
+      - ./shopfloorissue-data:/var/lib/mysql

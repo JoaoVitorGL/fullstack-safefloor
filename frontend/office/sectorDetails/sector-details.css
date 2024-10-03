@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #007bff;        
+    font-weight: bold;         
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;         
+}
+
+#employeeList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#employeeList li {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.report-card {
+    margin: 15px 0;
+}
+
+.back-button {
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.alert-message {
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+}
